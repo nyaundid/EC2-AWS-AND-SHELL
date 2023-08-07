@@ -1,0 +1,8 @@
+                         mtSwingMomentum  Strategy
+
+
+ C# .NET code for strategy for Ninjatrader. Strategy 1 (Scalper) on/off.  Strategy 2 (TCB)  on/off.  Show Strategy on chart.  Strategy 1 (Scalper).  Enter long when the mtSwingMomentum indicator is above +75 and enter short when the mtSwingMomentum indicator is below -75.  Take profit on the long when the mtSwingMomentum indicator is below +75 and take profit on the short when the mtSwingMomentum indicator is above -75.  stop loss 45 tick. trailing stop 45 tick.  Profit exit 80 ticks.  
+
+ Show Strategy on chart.  Strategy 2( TCB).  Enter long when the zero lag ema indicator 5 crosses above the zero lag ema indicator 9.  Enter short when the zero lag ema indicator 5 crosses below the zero lag ema indicator 9.  Exit long on the mtSwingMomentum indicator bar (4) .  Exit Short when the mtSwingMomentum indicator bar (4).  Stop exit on 20 ticks.  Trailing stop 20 ticks.  Profit exit 25 ticks.  
+
+Strategy 1 (Scalper) and Strategy 2 (TCB) can both trade at the same time.  
